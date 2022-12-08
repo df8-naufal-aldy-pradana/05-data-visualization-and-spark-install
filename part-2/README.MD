@@ -1,8 +1,9 @@
+# Spark and PySpark Installation
 
 ## Linux
 
-Here we'll show you how to install Spark 3.0.3 for Linux.
-We tested it on Ubuntu 20.04 (also WSL), but it should work
+Here we'll show you how to install Spark 3.1.3 for Linux.
+We tested it on Ubuntu 22.04, but it should work
 for other Linux distros as well
 
 
