@@ -4,7 +4,7 @@
 
 ### Dashboard Screenshot
 
-![Dashboard Screenshot](./dashboard.png)
+![Dashboard Screenshot](./docs/viz_dashboard.png)
 
 ### Dashboard URL
 
