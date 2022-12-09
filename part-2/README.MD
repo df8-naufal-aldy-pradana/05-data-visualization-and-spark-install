@@ -6,7 +6,6 @@ Here we'll show you how to install Spark 3.1.3 for Linux.
 We tested it on Ubuntu 22.04, but it should work
 for other Linux distros as well
 
-
 ### Installing Java
 
 Download OpenJDK 11 or Oracle JDK 11 (It's important that the version is 11 - spark requires 8 or 11)
@@ -26,6 +25,7 @@ tar xzfv openjdk-11.0.2_linux-x64_bin.tar.gz
 ```
 
 Move folder jdk-11.02 inside spark folder:
+
 ```bash
 mv jdk-11.02 ~/spark/
 ```
@@ -78,7 +78,8 @@ rm spark-3.1.3-bin-hadoop3.2.tgz
 ```
 
 Move spark3.1.3 to spark folder:
-```bash
+
+````bash
 mv spark-3.1.3-bin-hadoop3.2 ~/spark/
 
 Add it to `PATH`:
@@ -86,7 +87,7 @@ Add it to `PATH`:
 ```bash
 export SPARK_HOME="${HOME}/spark/spark-3.1.3-bin-hadoop3.2"
 export PATH="${SPARK_HOME}/bin:${PATH}"
-```
+````
 
 ### Testing Spark
 
@@ -107,10 +108,6 @@ distData.filter(_ < 10).collect()
 To make sure that `JAVA_HOME` and `SPARK_HOME` are set every time you open a new terminal, refer to this guide:
 
 https://phoenixnap.com/kb/linux-add-to-path
-
-
-### PySpark
-
 
 ## PySpark
 
